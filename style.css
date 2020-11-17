@@ -101,7 +101,10 @@ h6 {
 
 img {
 	border: none;
-	max-width: 100%;
+	max-width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 code {
@@ -131,7 +134,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	color: white;
 }
 
 address {
@@ -693,7 +696,7 @@ button:focus {
 	right: 16px;
 	bottom: 16px;
 	color: #fff;
-	padding-top: 25%;
+	padding-top: 18%;
 	text-align: center;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -1387,3 +1390,8 @@ button:focus {
 	
 }
 
+
+.engineer {
+	color: rgb(160, 153, 153);
+	font-weight: lighter;
+}
