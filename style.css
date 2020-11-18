@@ -367,6 +367,7 @@ button:focus {
 }
 
 .mu-featured-slider-wrapper {
+	margin-top: 16px;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -696,7 +697,7 @@ button:focus {
 	right: 16px;
 	bottom: 16px;
 	color: #fff;
-	padding-top: 18%;
+	padding-top: 22%;
 	text-align: center;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
@@ -731,12 +732,12 @@ button:focus {
 	border-radius: 50%;
     background: #1b1c29;
     color: #fff;
-    height: 35px;
-    padding: 0 6px;
-    width: 35px;
+    height: 40px;
+    padding: 0 0px;
+    width: 40px;
     line-height: 35px;
     display: inline-block;
-    font-size: 15px;
+    font-size: 14px;
     margin-right: 10px;
     margin-top: 5px;
     -webkit-transition: all 0.5s;
@@ -1391,7 +1392,64 @@ button:focus {
 }
 
 
-.engineer {
-	color: rgb(160, 153, 153);
-	font-weight: lighter;
+
+
+
+.shimmer {
+  text-align: center;
+  color: rgba(255,255,255,0.1);
+  font-size: 24px;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(46, 46, 46)), to(rgb(46, 46, 46)), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(rgb(46, 46, 46)), to(rgb(46, 46, 46)), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(rgb(46, 46, 46)), to(rgb(46, 46, 46)), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 17s;
+  -moz-animation-duration: 17s;
+  animation-duration: 17s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: rgb(46, 46, 46);
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
 }
