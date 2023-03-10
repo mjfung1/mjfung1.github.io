@@ -1454,3 +1454,7 @@ button:focus {
     background-position: top right;
   }
 }
+
+.nyc {
+	color: white;
+}
