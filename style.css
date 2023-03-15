@@ -1458,3 +1458,11 @@ button:focus {
 .nyc {
 	color: white;
 }
+
+.profile-image {
+	margin-top: 20px;
+	width: 290px;
+	height: 290px;
+	object-fit: cover;
+	border-radius: 50%;
+}
